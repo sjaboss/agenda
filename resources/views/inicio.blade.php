@@ -1,7 +1,7 @@
 @extends('layouts/agenda')
 @section('tituloPagina', 'Sjaboss')
 @section('contenido')
-<link href="{{ asset('css/stylebarra.css') }}"rel="stylesheet">
+<link href="{{ asset('css/styleBarra.css') }}"rel="stylesheet">
 
 
     <style>
