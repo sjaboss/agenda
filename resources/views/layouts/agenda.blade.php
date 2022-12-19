@@ -30,6 +30,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Roboto+Condensed:ital@1&display=swap"
         rel="stylesheet">
     <link href="{{ asset('css/styleBarra.css') }}"rel="stylesheet">
+    <link href="{{ asset('img') }}"rel="stylesheet">
 
     <title>@yield('tituloPagina')</title>
 </head>
