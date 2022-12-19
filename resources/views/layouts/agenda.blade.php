@@ -31,14 +31,13 @@
         rel="stylesheet">
     <link href="{{ asset('css/styleBarra.css') }}"rel="stylesheet">
 
-
     <title>@yield('tituloPagina')</title>
 </head>
 
 <body style="background: #E5E7E9 ; text-align: center">
 
 
-    <style>
+   {{--  <style>
         .logoFormularios {
             height: 35px;
             width: auto;
@@ -48,7 +47,7 @@
             height: 35px;
             width: auto;
         }
-    </style>
+    </style> --}}
 
     <nav class="navbar navbar-expand-lg" style="background-color: #E5E7E9">
         <div class="container-fluid">
