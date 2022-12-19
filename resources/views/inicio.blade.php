@@ -1,5 +1,5 @@
 @extends('layouts/agenda')
-@section('tituloPagina', 'Portal: Sjaboss')
+@section('tituloPagina', 'Sjaboss')
 @section('contenido')
 
 
