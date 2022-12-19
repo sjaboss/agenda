@@ -116,7 +116,7 @@
         <div class="botonLetrero">
             <a style="color: #58B74E" class="btn btn"
                 href="https://api.whatsapp.com/send?phone=541161522256&text=Quisiera realizar una consulta"> <img
-                    class="what" src="img/whatsapp.png" alt="">Whatsapp
+                    class="what" src="img/whatsapp.png" alt=""> Whatsapp
                 Directo</a>
         </div>
     </div>
