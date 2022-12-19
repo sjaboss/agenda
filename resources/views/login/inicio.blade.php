@@ -1,5 +1,5 @@
  @extends('layouts/blanca')
- <link href="{{ asset('css/stylebarra.css') }}"rel="stylesheet">
+ <link href="{{ asset('css/styleBarra.css') }}"rel="stylesheet">
  @section('tituloPagina', 'Alta-Registro')
  
  <div class="tope" style="padding-top: 5%"> </div>

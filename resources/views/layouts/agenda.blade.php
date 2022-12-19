@@ -38,11 +38,21 @@
 <body style="background: #E5E7E9 ; text-align: center">
 
 
+    <style>
+        .logoFormularios {
+            height: 35px;
+            width: auto;
+        }
 
+        .logo {
+            height: 35px;
+            width: auto;
+        }
+    </style>
 
     <nav class="navbar navbar-expand-lg" style="background-color: #E5E7E9">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{{ route('inicio')  }}" >
+            <a class="navbar-brand" href="{{ route('inicio') }}">
                 {{--  <span class="fas fa-address-card fa-2x"></span> --}}
                 <img class="logo" src="{{ asset('img/logosjaboss.png') }}">
             </a>
@@ -57,7 +67,7 @@
                             <a class="nav-link active" aria-current="page" href="{{ route('inicio') }}"><span
                                     class="fas fa-home"></span> Inicio</a>
                         </li> --}}
-                 {{--    <li class="nav-item">
+                    {{--    <li class="nav-item">
                         <a class="nav-link" href="{{ route('categorias.index') }}"> <span
                                 class="fas fa-list-alt"></span> Categorias</a>
                     </li>
@@ -67,18 +77,18 @@
                     </li> --}}
                 </ul>
                 <ul class="navbar-nav">
-                
 
-                   
+
+
                     @guest
 
-                    <li>
-                        <a class="nav-link" href="#sec1">¿Quienes Somos?</span> </a>
-                    </li>
+                        <li>
+                            <a class="nav-link" href="#sec1">¿Quienes Somos?</span> </a>
+                        </li>
 
-                    <li>
-                        <a class="nav-link" href="#sec3">Contacto</span> </a>
-                    </li>
+                        <li>
+                            <a class="nav-link" href="#sec3">Contacto</span> </a>
+                        </li>
 
                         <li>
                             <a class="nav-link" href="{{ route('login') }}"></span>Ingresar</a>
@@ -89,23 +99,24 @@
 
                     @auth
 
-                    <li>
-                        <a class="nav-link" href="{{ route('registrar.index') }}"></span>Registrarse</a>
-                    </li>
+                        <li>
+                            <a class="nav-link" href="{{ route('registrar.index') }}"></span>Registrarse</a>
+                        </li>
 
                         <li>
-                            <a style="font-size: 18px; color: darkslategray; font:bold " class="nav-link" href="{{ route('post.index', auth()->user()->username) }}">
-                               
-                                <span  class="fas fa-id-card" >
+                            <a style="font-size: 18px; color: darkslategray; font:bold " class="nav-link"
+                                href="{{ route('post.index', auth()->user()->username) }}">
+
+                                <span class="fas fa-id-card">
                                     {{ auth()->user()->username }}
                                 </span>
-                                
-                            <form method="POST" action="{{ route('logout') }}">
-                                @csrf
-                                <button  class="btn btn"  type="submit">
-                                    Cerrar Sesión
-                                </button>
-                            </form>
+
+                                <form method="POST" action="{{ route('logout') }}">
+                                    @csrf
+                                    <button class="btn btn" type="submit">
+                                        Cerrar Sesión
+                                    </button>
+                                </form>
                             </a>
 
                         </li>

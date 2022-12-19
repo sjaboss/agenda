@@ -5,7 +5,166 @@
 
 
     <style>
- 
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+            line-height: 180%;
+            color: #444;
+            text-align: center;
+        }
+
+        .foto1 {
+            background-image: url(img/17.jpg);
+            min-height: 70%;
+            box-shadow: 2px 2px 5px #999;
+        }
+
+
+        .foto4 {
+            background-image: url(img/19.jpg);
+            min-height: 40%;
+            box-shadow: 2px 2px 5px #999;
+        }
+
+        .foto1,
+        .foto4 {
+            position: relative;
+            opacity: 0.75;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .carta {
+            background-image: url(img/100.png);
+            min-height: 100%;
+            box-shadow: 1px 1px 4px #999;
+            opacity: 0.75;
+            background-position: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-size: bold;
+        }
+
+        .cartaSomos {
+
+            background-position: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-size: bold;
+        }
+
+        .cartaSomos .parrafo1 {
+            letter-spacing: 1px;
+            font-size: bold;
+        }
+
+        .cards {
+            display: flex;
+            width: 100%;
+            text-align: center;
+       
+        }
+
+        .cards .card-body {
+            /* width: 600px;*/
+            height: 350px;
+            border-radius: 10px;
+            padding: 30px;
+            box-sizing: border-box;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.3s ease;
+
+        }
+
+        .cards .card-body:hover {
+            margin-right: 80px;
+            transform: rotate(3deg) translateY(-15px);
+        }
+        
+.me-gusta svg {
+	margin-right: 10px;
+	color: #e75151;
+}
+
+.logo{ 
+    height: 35px;
+    width: auto;
+}
+
+.gif{ 
+    height: 25%;
+     width: auto;     
+}
+
+
+.logoFormularios{ 
+    height: 35px;
+     width: auto;     
+}
+.what{ 
+    height: 30px;
+    width: auto;
+}
+
+.card-body h1,
+li {
+    color: #c73256;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-size: bold;
+}
+
+.card-header h1 {
+    color: #c73256;
+}
+
+.letrero {
+    color: #fbfbfb;
+    font-size: 220%;
+    top: 30%
+}
+
+.letrero2 {
+    color: #c73256;
+    font-size: 200%;
+    top: 37%;
+}
+
+.letrero3 {
+    color: #c73256;
+    font-size: 220%;
+    top: 43%;
+    letter-spacing: 1px;
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #000
+}
+
+.letrero,
+.letrero1,
+.letrero2,
+.letrero3 {
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #000
+}
+
+.botonLetrero {
+/*       background: #58B74E; */
+    font-size: 100%;
+    top: 53%;
+    letter-spacing: 1px;
+    position: absolute;
+    width: 100%;
+}
 
     </style>
 
