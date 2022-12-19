@@ -29,7 +29,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Roboto+Condensed:ital@1&display=swap"
         rel="stylesheet">
-    <link href="{{ asset('css/stylebarra.css') }}"rel="stylesheet">
+    <link href="{{ asset('css/styleBarra.css') }}"rel="stylesheet">
 
 
     <title>@yield('tituloPagina')</title>
